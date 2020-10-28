@@ -1,5 +1,6 @@
 class Song
 
+<<<<<<< HEAD
 attr_reader :name, :artist, :genre
 @@count = 0
 @@genres = []
@@ -49,5 +50,18 @@ attr_reader :name, :artist, :genre
     end
     return @artist_count
   end
+=======
+attr_accessor :name, :artist, :genre
+@@count = 0
+@@genre = []
+@@artist = []
+
+  def initialize(name, artist, genre)
+    @@count +=1
+    @@genre << @genre
+    @@artist << @artist
+  end
+
+>>>>>>> c7b2578bd7100b5fa5819f214105aceeda6404e8
 
 end
